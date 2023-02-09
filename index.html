@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Igoguide</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- CSS Custom -->
+	<link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+<body>
+	<!-- Entete -->
+	<div class="container-fluid" id="entete_logo">
+		<!-- Conteneur centré -->
+		<div class="container">	
+			<div class="row">
+				<!-- Place logo -->
+				<div class="col-xl-6" id="entete_logo_gauche">
+					<img src="assets/image/logo.png" alt="logo Igoguide">
+					<span id="slogan">Vos envies coïncident !</span>
+				</div>
+				<div class="col-xl-6" id="entete_logo_droite">
+					
+					<a href="#" class="btn btn-dark"><i class="fa-solid fa-user"></i>Se connecter</a>
+					<a href="#" class="btn btn-dark"><i class="fa-solid fa-user-tie"></i>Espace Pro</a>
+					<a class="dropdown">
+						<a type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="langue">
+							<img src="assets/icone/fr-flag.png" alt=""> Français
+						</a>
+
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#"> <img src="assets/icone/fr-flag.png"> Français</a>
+						<a class="dropdown-item" href="#"> <img src="assets/icone/eng-flag.png"> English</a>
+
+					</div>
+
+				</div>
+			</div>		
+		</div>	
+	</div>
+	<!-- Navigation -->
+	<div class="container-fluid" id="navigation">
+		<!-- Navbar -->
+		<div class="container">
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+				<!-- Links -->
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<img src="assets/icone/ic_a.png" alt="" class="nav_icone">
+						<a class="nav-link" href="#">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<img src="assets/icone/herbergement.png" alt="" class="nav_icone">
+						<a class="nav-link " href="#">Hébergement</a>
+						<!-- Sous menu -->
+
+						
+					</li>
+
+					<li class="nav-item">
+						<img src="assets/icone/Ou_Boire.png" alt="" class="nav_icone" id="icone_ou_boire"> 
+						<a class="nav-link" href="#">Où boire</a>
+					</li>
+					<li class="nav-item">
+						<img src="assets/icone/Ou_Manger.png" alt="" class="nav_icone" id="icone_ou_manger">
+						<a class="nav-link" href="#">Où manger</a>
+					</li>
+					<li class="nav-item">
+						<img src="assets/icone/Balades.png" alt="" class="nav_icone" id="icone_balade"> 
+						<a class="nav-link" href="#">Balades</a>
+					</li>
+					<li class="nav-item">
+						<img src="assets/icone/Activites.png" alt="" class="nav_icone" id="icone_activite">
+						<a class="nav-link" href="#">Activités</a>
+					</li>
+
+					<!-- Dropdown -->
+					<li class="nav-item dropdown">
+						<img src="assets/icone/Services.png" alt="" class="nav_icone" id="icone_service">
+						<a class="nav-link" href="#" id="navbardrop">
+							Services
+						</a>
+						
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<!-- Bannière -->
+	<div class="container-fluid" id="banniere">
+		<div class="masque">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12" id="form-banniere">
+						<h1 id="titre_banniere" class="titre">Une nuit insolite, une sortie et c’est parti !</h1>
+						<form>
+							<input type="" name="" placeholder="Mot clé (Ex : Dormir, bars, restaurants...)" class="form-control">
+							<input type="" name="" placeholder="Lieu (Ex : Bordeaux)" class="form-control input_2">
+							<a href="#" class="btn btn-warning" id="btn-rechercher">Rechercher</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- Comment ça marche -->
+	<div class="container-fluid" id="comment_ca_marche">
+		
+		<div class="row titre_bloc">
+			<h2 class="titre">Comment ça marche</h2>
+
+		</div>
+		<!-- Guide d'utilisation (image avec flêche) -->
+		<div class="row">
+			<div class="col-xl-3 image-fleche">
+				<img src="assets/image/Fichier 1.png" alt="">
+				<h3>Choisi une destination ? Un établissement ? Ou encore une activité ?</h3>
+				<p>
+					Par mots-clés pour n'en faire qu'une bouchée. Avec sa carte interactive, super addictive ! Ou avec ses favoris au goût de reviens-y !
+				</p>
+			</div>
+			<div class="col-xl-3 image-fleche">
+				<img src="assets/image/Fichier 2.png" alt="">
+				<h3>J'ai trouvé !</h3>
+				<p>
+					Super! Accédez à présent directement à sa fiche ! Tous ses renseignements dont ses photos, site, tarifs, adresse, mail et téléphone ci-trouvent
+				</p>
+			</div>
+			<div class="col-xl-3 image-fleche">
+				<img src="assets/image/Fichier 3.png" alt="">
+				<h3>J'y vais!</h3>
+				<p>
+					Ah! Vous voyez ! Vos recherches étaient vraiment, faciles sur IGOguide!
+				</p>
+				<div class="" id="derniere-image">
+					<img src="assets/image/design 2.png" alt="" id="last-arrow-img">
+				</div>
+			</div>
+			
+		</div>
+		
+
+		<div class="row">
+			
+
+
+		</div>
+		
+		
+	</div>
+
+
+
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

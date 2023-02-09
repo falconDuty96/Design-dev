@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'Remahpro';
+  src: url('../font/RemahPro-ExtraBold.ttf') format('truetype') ;
+}
+
+#entete_logo {
+  background: #424141 ; 
+  
+  
+    
+}
+#entete_logo img {
+  width: 70px ;
+}
+#entete_logo_gauche {
+  /*background: red ; */
+  height: 50px ;
+}
+#entete_logo_droite {
+ /* background-color: orange ;  */
+  text-align: right ; 
+  height: 50px ;
+  line-height: 45px ;
+  
+  
+}
+#entete_logo .container {
+  
+  padding-top : 10px ;
+  padding-bottom:  10px ;
+  
+  
+}
+#slogan {
+  color: white ; 
+}
+
+#entete_logo_droite .btn-dark {
+   
+   width: 150px ;
+  border-radius: 20px ;
+  color : white ; 
+}
+#navigation .navbar {
+  background: #252525!important; 
+  
+  padding: 0px ;
+  
+}
+.navbar-nav {
+  text-align: center ; 
+}
+#navigation {
+  background: #252525 ; 
+  
+}
+.nav_icone {
+  width: 30px ; 
+  height: 25px ;
+}
+#icone_ou_boire {
+  width: 25px ;
+  height: 25px ;
+}
+#icone_ou_manger {
+  width: 41px ;
+  height: 25px ;
+  
+}
+#icone_balade {
+  width: 25px ;
+  height: 25px ;
+}
+#icone_activite {
+  width: 40px ;
+  height: 25px ;
+}
+#icone_service {
+  width: 20px ;
+  height: 25px ;
+}
+.nav-item {
+ 
+  text-align: center!important; 
+  width: 159px ;
+  padding-top : 10px ;
+  padding-bottom: 10px ;
+  
+}
+
+.fa-user, .fa-user-tie{
+  margin-right: 10px ;
+}
+
+
+#langue img, .dropdown-menu img {
+  width: 25px ;
+}
+
+#langue {
+  border-radius: 20px ;
+  height: 40px ;
+  padding-top : 5px!important; 
+  background: #343a40 ; 
+  border: none ; 
+}
+#langue {
+  color : white ; 
+  
+}
+#banniere {
+  background: grey ; 
+  height: 600px ; 
+  text-align: center ; 
+  background: url('../image/beach.jpg') ;
+  background-repeat: no-repeat ; 
+  background-size: cover ; 
+  padding: 0px ;
+}
+#form-banniere {
+  
+  height: 600px ;
+  padding-top : 220px ;
+}
+#form-banniere form {
+  background: white; 
+  width : 1100px ;
+  margin: auto ; 
+  height: 60px ;
+  border-radius: 30px ;
+  padding-top : 10px ; 
+  text-align: left ; 
+  padding-left : 20px ;
+}
+#form-banniere form input {
+  height: 40px ;
+  width: 350px ;
+  border: 0 ; 
+  display: inline-block ; 
+  border-radius: 0px ; 
+}
+#form-banniere form input:focus {
+   border: none; 
+  box-shadow: none ;
+}
+#form-banniere form #btn-rechercher {
+  width: 360px ;
+  margin : 0px!important ;
+  vertical-align: top ; 
+  height: 40px ;
+  border-radius: 20px ;
+  
+  text-transform: uppercase ; 
+}
+.input_2 {
+  border-left: 1px solid #dddddd!important; ; 
+}
+.masque {
+  background: rgba(0,0,0,0.4) ; 
+  height: 600px ;
+}
+#titre_banniere {
+  color: white ; 
+  text-transform: uppercase ;
+}
+#comment_ca_marche {
+  padding-top : 20px ;
+  padding-bottom: 20px ;
+}
+#comment_ca_marche .card {
+  
+  height: 450px ;
+  text-align: center ; 
+}
+#comment_ca_marche .card h3 {
+  font-size: 1.3em ; 
+}
+#comment_ca_marche .titre_bloc {
+  text-align: center ; 
+  
+}
+#comment_ca_marche .titre_bloc  h2{
+  text-align: center ; 
+  
+  width: 100% ;
+  margin-bottom: 20px ;
+}
+#comment_ca_marche .col-md-2 {
+  border: 1px solid green ; 
+}
+#comment_ca_marche .card h3 {
+  display: inline-block ; 
+}
+#comment_ca_marche i {
+  color : white ; 
+  font-size: 0.8em ;
+ 
+}
+#comment_ca_marche span{
+  background: black ; 
+  display: inline-block ; 
+  width: 20px ;
+  height: 20px ;
+  line-height: 15px ;
+  border-radius: 50% ; 
+}
+.nav-item:hover {
+  background: #53b7c6 ; 
+}
+
+.sous-menu {
+  background: red ; 
+  position: absolute ; 
+  width: 920px ;
+  z-index: 1000 ;
+  height: 400px ;
+  
+}
+.sous-menu p {
+  background: green ; 
+  width: 184px ;
+  float: left ; 
+  text-align : center ; 
+  height: 176px ;
+  padding: 0px ;
+}
+.ligne {
+  background: yellow ; 
+  height: 179px ;
+  width: 920px ;
+  margin-top : 10px ;
+  
+}
+
+.titre {
+  font-family: 'Remahpro', sans-serif;
+  
+}
+
+.image-fleche {
+  height: 700px ;
+  
+}
+.image-fleche img {
+  width: 100% ;
+}
+#comment_ca_marche .titre_bloc{
+  margin-bottom: 150px ;
+}
+#last-arrow-img {
+  width: 480px ;
+  height: 626px ;
+}
+#derniere-image {
+  position: absolute ; 
+  top : -150px ;
+  left : 470px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
