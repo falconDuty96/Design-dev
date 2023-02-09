@@ -259,11 +259,16 @@
 
 .boite-menu {
   /* width: 300px ; */
-  height: 370px ;
-  background-color: #e6e1e3 ;
+  
+  border-radius: 5px ;
+  background-color: #f0e2e7 ;
   position: absolute;
-  /* display: none ; */
+  display: none ;
   z-index: 1200;
+}
+
+#boite-1 {
+  height: 340px ;
 }
 
 .img-submenu {
@@ -271,6 +276,8 @@
   max-width: 120px;
   height: 100px ;
   object-fit: fill;
+  position: relative;
+  left: 10%;
 }
 
 .content-submenu {
@@ -280,9 +287,16 @@
 #conteneur-submenu {
   display: flex ;
   flex-wrap: wrap;
+  /* justify-content: center; */
 }
 .toBold {
   font-weight: bold;
+  color: #252525 ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+.toBold:hover {
+  text-decoration: none;
 }
 
 
