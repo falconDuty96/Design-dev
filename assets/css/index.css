@@ -257,12 +257,32 @@
   left : 470px ;
 }
 
-#boite-menu {
-  width: 300px ;
-  height: 200px ;
+.boite-menu {
+  /* width: 300px ; */
+  height: 370px ;
   background-color: #e6e1e3 ;
   position: absolute;
+  /* display: none ; */
+  z-index: 1200;
+}
 
+.img-submenu {
+  width: auto;
+  max-width: 120px;
+  height: 100px ;
+  object-fit: fill;
+}
+
+.content-submenu {
+  width: 175px ;
+}
+
+#conteneur-submenu {
+  display: flex ;
+  flex-wrap: wrap;
+}
+.toBold {
+  font-weight: bold;
 }
 
 
