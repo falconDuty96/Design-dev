@@ -113,7 +113,6 @@
 }
 #banniere {
   background: grey ; 
-  height: 600px ; 
   text-align: center ; 
   background: url('../image/beach.jpg') ;
   background-repeat: no-repeat ; 
@@ -284,11 +283,19 @@
   width: 175px ;
 }
 
-#conteneur-submenu {
+.content-submenu-7 {
+  width: 145px ;
+}
+
+.conteneur-submenu {
   display: flex ;
   flex-wrap: wrap;
-  /* justify-content: center; */
 }
+
+.conteneur-submenu-5 {
+  justify-content: center !important;
+}
+
 .toBold {
   font-weight: bold;
   color: #252525 ;
@@ -300,6 +307,23 @@
 }
 
 
+#favoris {
+  position: absolute;
+  height: 264px ;
+  right: 0px ;
+}
+
+
+.dropdown-item {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.dropdown-menu {
+  min-width: 0px !important;
+}
+.dropdown-icon {
+  width: 40px !important;
+}
 
 
 
