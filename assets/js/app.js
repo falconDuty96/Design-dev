@@ -68,12 +68,21 @@ $(document).ready(function() {
                         
                     }
                     
-                })
-
-
-                
+                }) 
             }
         })
     })
 
+
+
+
+
+
+    /* Flag link */
+    $(".icon-flag-menu").each(function() {
+        $(this).click(function() {
+            var src = $(this).children()[0].attributes[0].nodeValue ;
+            $("#flag-show").attr("src",src) ;
+        })
+    })
 })
