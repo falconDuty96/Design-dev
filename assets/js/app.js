@@ -4,9 +4,20 @@ $(document).ready(function() {
     var elmentToChange = [] ;
     var initialConfig = 0 ;
     var anim ;
+    var usedMenu = "" ;
+    var usedIconName = "" ;
+    var newIcon = "" ;
+    var oldElementChanged ;
+    var usedClassName = "" ;
+
     $(".icon-menu").each(function() {
         $(this).on({
             mouseenter: function() {
+                var menuHovered = $(this).attr("id") ;
+                if(usedMenu != menuHovered && initialConfig > 0) {
+                    oldElementChanged[0].attributes[0].nodeValue = usedIconName ;
+                    oldElementChanged[1].attributes["class"].nodeValue = usedClassName ;
+                }
                 clearTimeout(anim)
                 var d = $(this).attr("data-shower") ;
                 $('.boite-menu').css({
@@ -15,14 +26,20 @@ $(document).ready(function() {
                 $("#boite-"+d).css({
                     "display":"flex" ,
                 })
+                stateIcon = ""
+                stateTxt = ""
                 elmentToChange = $(this).children() ;
+                oldElementChanged = $(this).children() ;
                 var icon = $(this).children()[0].attributes[0].nodeValue ;
                 stateIcon = icon ;
+                usedIconName = icon ;
                 var dataIcon = icon.split('.') ;
-                var newIcon = dataIcon[0]+"-colored"+".png" ;
+                newIcon = dataIcon[0]+"-colored"+".png" ;
                 $(this).children()[0].attributes[0].nodeValue = newIcon ;
                 stateTxt = $(this).children()[1].attributes["class"].nodeValue ;
+                usedClassName = $(this).children()[1].attributes["class"].nodeValue ;
                 $(this).children()[1].attributes["class"].nodeValue += " text-and-icon" ;
+                initialConfig++ ;
             },
             mouseleave: function(a) {
                 var d = $(this).attr("data-shower") ;
@@ -30,12 +47,11 @@ $(document).ready(function() {
                     $("#boite-"+d).css({
                         "display":"none" ,
                     })
-                    console.log("Nandeha ilay timer")
                     elmentToChange[0].attributes[0].nodeValue = stateIcon ;
                     elmentToChange[1].attributes["class"].nodeValue = stateTxt ;
                     stateIcon = "" ;
                     stateTxt = "" ;
-                    elmentToChange = [] ;
+                    elmentToChange = [] ;  
                 },5) ;
                 $("#boite-"+d).on({
                     mouseenter: function(c) {
