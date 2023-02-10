@@ -159,7 +159,7 @@
 }
 .masque {
   background: rgba(0,0,0,0.4) ; 
-  height: 600px ;
+  height: 700px ;
 }
 #titre_banniere {
   color: white ; 
@@ -311,6 +311,7 @@
   position: absolute;
   height: 264px ;
   right: 0px ;
+  top: 437px ;
 }
 
 
@@ -325,8 +326,50 @@
   width: 40px !important;
 }
 
+.ccm-flex {
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ccm {
+  width: 300px ;
+  height: 400px ;
+  margin-left: 20px ;
+}
 
-
+.bg-customBlueDark {
+  background-color: #236eab;
+}
+.entete_row {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Remahpro";
+  font-weight: bold;
+}
+.card-reform {
+  background-color: transparent;
+  border: none ;
+}
+.header-card {
+  border: none;
+  background-color: transparent;
+}
+.body-card {
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  padding-top: 0px;
+padding-bottom: 0px;
+}
+.footer-card {
+  border: none;
+  background-color: transparent;
+  height: 150px;
+  padding-top: 0px;
+padding-bottom: 0px;
+}
 
 
 
