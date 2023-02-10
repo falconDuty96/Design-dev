@@ -345,6 +345,12 @@
   font-family: "Remahpro";
   font-weight: bold;
 }
+
+.entete_row_primary {
+  /* font-family: 'Montserrat', sans-serif; */
+  color: #236eab;
+}
+
 .card-reform {
   background-color: transparent;
   border: none ;
@@ -374,8 +380,33 @@ padding-bottom: 0px;
 
 
 
+/* Map Generation */
+.region {
+  transition: 0.5s ;
+}
 
+.region:hover {
+  fill: rgba(255, 255, 0, 0.3);
+}
+#mySVGMap {
+  /* width: 600px ; */
+  fill: white ;
+  stroke: #6fb0e4 ;
+}
+#detp_:hover {
+  fill: yellow ;
+}
+#boite_carte {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+#trouver_departement {
+  width: 50% ;
+}
+#trouver_region {
+  width: 50% !important; 
+}
 
 
 
