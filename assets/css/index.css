@@ -3,6 +3,10 @@
   src: url('../font/RemahPro-ExtraBold.ttf') format('truetype') ;
 }
 
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #entete_logo {
   background: #424141 ; 
   
@@ -408,7 +412,56 @@ padding-bottom: 0px;
   width: 50% !important; 
 }
 
+.hover-region {
+  color: #236eab ;
+  line-height: 50px ;
+  font-family: 'Montserrat', sans-serif;
+}
 
+.hover-region:hover {
+  /* color: rgba(255, 255, 0, 0.5) !important; */
+  text-decoration: none ;
+  
+}
+
+#region_france {
+  display: flex;
+  flex-wrap: wrap;
+}
+#region_france_liste {
+  margin-top: 30px ;
+  padding-left: 50px ;
+  list-style: none ;
+  
+}
+
+
+
+#defilement_transforme {
+  height: 600px ;
+}
+
+
+
+/* Transformation */
+#transform_images {
+  display: flex ;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+
+}
+.conteneur_image_transform {
+  position: relative;
+  margin-left: 25px ;
+  width: 400px !important;
+}
+.bottom-left-txt {
+  color: white ;
+  font-weight: bold ;
+  position: absolute ;
+  bottom: 8px;
+  left: 16px;
+}
 
 
 
