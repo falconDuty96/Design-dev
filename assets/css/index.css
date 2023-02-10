@@ -444,6 +444,11 @@ padding-bottom: 0px;
 
 
 /* Transformation */
+.boldTxt {
+
+  font-weight: bold;
+  
+}
 #transform_images {
   display: flex ;
   flex-wrap: nowrap;
