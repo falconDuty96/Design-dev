@@ -797,11 +797,14 @@ padding-bottom: 0px;
 }
 .boite-speciale p {
   width: 100% ;
+  padding-left: 15px;
+  padding-right: 15px;
   
 }
 .boite-speciale {
   cursor: pointer ;
 }
+
 .boite-speciale-hebergements:hover {
   background-color: #279fdb;
 }
