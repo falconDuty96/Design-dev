@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Igoguide</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+    <!-- Fontawesome -->
+    
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 	
+	<!-- CSS Custom -->
+	<link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+<body>
+
+    <!-- Entete -->
+	<div class="container-fluid" id="entete_logo">
+		<!-- Conteneur centré -->
+		<div class="container">	
+			<div class="row">
+				<!-- Place logo -->
+				<div class="col-xl-6" id="entete_logo_gauche">
+					<img src="assets/image/logo.png" alt="logo Igoguide">
+					<span id="slogan">Vos envies coïncident !</span>
+				</div>
+				<div class="col-xl-6" id="entete_logo_droite">
+					
+					<a href="login.html" class="btn btn-dark"><i class="fa-solid fa-user"></i>Se connecter</a>
+					<a href="#" class="btn btn-dark"><i class="fa-solid fa-user-tie"></i>Espace Pro</a>
+					<a class="dropdown">
+						<a type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="langue">
+							<img src="assets/icone/fr-flag.png" id="flag-show" alt="">
+						</a>
+
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item icon-flag-menu" href="#"> <img src="assets/icone/fr-flag.png" class="dropdown-icon"><span class="ml-2">Français</span></a>
+						<a class="dropdown-item icon-flag-menu" href="#"> <img src="assets/icone/eng-flag.png" class="dropdown-icon"><span class="ml-2">Anglais</span></a>
+
+					</div>
+
+				</div>
+			</div>		
+		</div>	
+	</div>
+	<!-- Navigation -->
+	<div class="container-fluid" id="navigation">
+		<!-- Navbar -->
+		<div class="container">
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+				<!-- Links -->
+				<ul class="navbar-nav">
+					<li class="nav-item icon-menu" id="menu-1">
+						<img src="assets/icone/ic_a.png" alt="" class="nav_icone">
+						<a class="nav-link" href="index.html">Accueil</a>
+					</li>
+					<li class="nav-item icon-menu" data-shower="1" id="menu-2">
+						<img src="assets/icone/herbergement.png" alt="" class="nav_icone">
+						<a class="nav-link " href="#">Hébergement</a>
+						<!-- Sous menu -->
+
+						
+					</li>
+					<li class="nav-item icon-menu" data-shower="2" id="menu-3">
+						<img src="assets/icone/Ou_Boire.png" alt="" class="nav_icone" id="icone_ou_boire"> 
+						<a class="nav-link" href="#">Où boire</a>
+					</li>
+					<li class="nav-item icon-menu" data-shower="3" id="menu-4">
+						<img src="assets/icone/Ou_Manger.png" alt="" class="nav_icone" id="icone_ou_manger">
+						<a class="nav-link" href="#">Où manger</a>
+					</li>
+					<li class="nav-item icon-menu" data-shower="4" id="menu-5">
+						<img src="assets/icone/Balades.png" alt="" class="nav_icone" id="icone_balade"> 
+						<a class="nav-link" href="#">Balades</a>
+					</li>
+					<li class="nav-item icon-menu" data-shower="5" id="menu-6">
+						<img src="assets/icone/Activites.png" alt="" class="nav_icone" id="icone_activite">
+						<a class="nav-link" href="#">Activités</a>
+					</li>
+					<li class="nav-item icon-menu" data-shower="6" id="menu-7">
+						<img src="assets/icone/Services.png" alt="" class="nav_icone" id="icone_service">
+						<a class="nav-link" href="#">Services</a>
+						
+					</li>
+				</ul>
+				
+			</nav>
+			<div class="container boite-menu pt-3 pl-4" id="boite-1">
+				<div class="conteneur-submenu">
+					<div class="content-submenu mr-2  mb-4">
+						<a href="resultat-recherche.html"><img class="img-submenu" src="assets/image/cabane_arbres.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="resultat-recherche.html">Cabanes dans les arbres</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href="resultat-recherche.html"><img class="img-submenu" src="assets/image/cabane_sous_terre.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="resultat-recherche.html">Cabanes sous terre</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/cabane_sur_terre.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Cabanes sur terre</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/cabane_sur_l_eau.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Cabanes sur l'eau</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/bulle.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Bulles</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/tipis_tente_yourte.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Tipis / Tente / Yourte</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/habitat_roulant.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Habitas roulants</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/monument_historique.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Monuments historiques</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/bateau.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Bateux</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/cabane_arbres.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Hébergements de charme</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/hotels_atypiques.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Hôtels atypiques</a>
+						</p>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+			
+			<div class="container boite-menu pt-3 pl-4" id="boite-2">
+				<div class="conteneur-submenu">
+					<div class="content-submenu mr-2  mb-4 content-submenu-7">
+						<a href=""><img class="img-submenu" src="assets/image/bar_whiskies.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Lounges / Whiskies / Coktails</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/bar_rooftop.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Bars à rooftop</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/bar_vin.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Bars à vins</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/bar_pubs _ tapas.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Pubs / Bars à tapas</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/bar_billard.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Bars à thèmes / Jeux / Billards</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/concert_bar.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Concerts bars</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/bar_chat.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Bars à chats</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container boite-menu pt-3 pl-4" id="boite-3">
+				<div class="conteneur-submenu">
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/restaurants_originaux.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Restaurant originaux</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/restaurants_annimation.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Restaurants avec animations</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/brasserie_bistrot.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Brasserie - Bistrot - Auberges</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/cuisine_traditionnelle.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Cuisines traditionnelles</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/cuisine_monde.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Cuisines du monde</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/type_fast_food.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Types fast food / Tapas</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container boite-menu pt-3 pl-4" id="boite-4">
+				<div class="conteneur-submenu conteneur-submenu-5">
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/au_fil_de_l_eau.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Au fil de l'eau</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/perles_sauvages.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Randonnées nature</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/monuments_hsitoriques.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Sites historiques</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/perles_sauvages.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Les perles sauvages</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2  mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/jardins_imaginaire.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Les jardins imaginaires</a>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			<div class="container boite-menu pt-3 pl-4" id="boite-5">
+				<div class="conteneur-submenu">
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/ateliers_stage.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Ateliers et stages</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/ateliers_stage.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Activités sportives</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/ateliers_stage.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Activités ludiques</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/ateliers_stage.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Activités gustative</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/ateliers_stage.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Activités éducatives</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/ateliers_stage.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Activités bien-être</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/ateliers_stage.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Shoppings artisans et créateurs</a>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			<div class="container boite-menu pt-3 pl-4" id="boite-6">
+				<div class="conteneur-submenu">
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/organisateurs.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Organisateurs</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/photographe.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold " href="">Photographes etc.</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/traiteur.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Traiteurs</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/fleuriste.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Fleuristes</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/location_voiture.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Locations de véhicules</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/location_velo.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Locations de vélos</a>
+						</p>
+					</div>
+					<div class="content-submenu mr-2 content-submenu-7 mb-4">
+						<a href=""><img class="img-submenu" src="assets/image/divers_pressing.png" alt=""></a>
+						<p class="text-center">
+							<a class="toBold" href="">Divers</a>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+    <!-- Bannière -->
+	<div class="container-fluid banniere" style="background-image: url('assets/image/Images_Categorisation/hebergements.jpg');">
+		<div class="masque-specialisation">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="content-banniere-speciale">
+                            <h2 class="titre" style="color: #279fdb;">Hébergements</h2>
+                            <p class="text-white">Des nuits atypiques, c'est assuré...insolites, c'est probable...et des nuits magiques, c'est certain ! L'univers que les hôtes ont créé est inventif et rend ces moments inoubliables.</p>
+                            <a href="" class="btn btn-primary">Explorer</a>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Cabanes dans les arbres</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boite-speciale-hebergements boldTxt">Cabanes sur terre</p>
+                </div>
+                <div class="boite-speciale border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Cabanes sous terre</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Cabanes sur l'eau</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Tipis - tentes - yourtes</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Bulles</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Habitas roulants</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Monuments historiques</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Bateaux</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Hébergements de charme</p>
+                </div>
+                <div class="boite-speciale boite-speciale-hebergements border mr-3 mt-3">
+                    <div class="boite-img-circular">
+                        <div class="icon-circular mt-5">
+                            <img class="img-submenu" src="assets/image/cabane_arbres.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <p class="text-center boldTxt">Hôtels atypiques</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+	<div class="container-fluid bg-dark" id="footer">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col-md-12">
+							<img class="logo-footer mb-2" src="assets/image/logo.png" alt="logo Igoguide">
+							<p class="text-white mt-2">La plateforme intuitive qui vous trouve toutes vos adresses de loisirs !</p>
+							
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-md-12">
+							<p class="boldTxt text-white">Rejoignez-nous</p>
+							<ul class="my-list">
+								<li>
+									<a href=""><i class="fab fa-facebook-f colored-icon"></i></a>
+									<a href=""><i class="fab fa-instagram colored-icon"></i></a>
+									<a href=""><i class="fab fa-google colored-icon"></i></a>
+								</li>
+								<li>
+									<a href="">Devenez partenaire</a>
+								</li>
+								<li>
+									<a href="">Offrez un bon-cadeau</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-2">
+					<p class="boldTxt text-white">A propos</p>
+					<ul class="my-list">
+						<li>
+							<a href="">Besoin d'aide ?</a>
+						</li>
+						<li>
+							<a href="">Mentions légales</a>
+						</li>
+						<li>
+							<a href="">Confidentialité</a>
+						</li>
+						<li>
+							<a href="">CGU</a>
+						</li>
+						<li>
+							<a href="">FAQ</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<p class="boldTxt text-white ">Catégories</p>
+					<ul class="my-list">
+						<li>
+							<a href="">Hébergements</a>
+						</li>
+						<li>
+							<a href="">Où boire ?</a>
+						</li>
+						<li>
+							<a href="">Où manger</a>
+						</li>
+						<li>
+							<a href="">Balades</a>
+						</li>
+						<li>
+							<a href="">Activités</a>
+						</li>
+						<li>
+							<a href="">Services</a>
+						</li>
+						<li>
+							<a href="">Hauts-de-France</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<p class="boldTxt text-white">Pour vous</p>
+					<ul class="my-list">
+						<li>
+							<a href="">Carte cadeau</a>
+						</li>
+						<li>
+							<a href="">Se connecter</a>
+						</li>
+						<li>
+							<a href="">Espace pro</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<p class="boldTxt text-white ">Commentaires</p>
+					<ul class="my-list">
+						<li>
+							<div class="media">
+								<img class="mr-3 img-mo" src="assets/image/au_fil_de_l_eau.png" alt="Generic placeholder image">
+								<div class="media-body">
+								  	<p class="text-white text-comments">Super expérience avec ce guide pour vous montrer les sites touristiques cachés</p> 
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="media">
+								<img class="mr-3 img-mo" src="assets/image/au_fil_de_l_eau.png" alt="Generic placeholder image">
+								<div class="media-body">
+								  	<p class="text-white text-comments">J'ai pu compilé mes activités avec mon hébergement. Je recommande!</p> 
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="media">
+								<img class="mr-3 img-mo" src="assets/image/au_fil_de_l_eau.png" alt="Generic placeholder image">
+								<div class="media-body">
+								  	<p class="text-white text-comments">Avec IGOguide, j'ai découvert une nouvelle façon de chercher mes loisirs! Le site est très interactif et j'ai pu enfin trouver les activités de mes enfants et un restaurant aux alentours. Très simple! C'est ce qui nous manquait!</p> 
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="copyright">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p class="text-white copyright" id="copyright-1">IGOgroup ne facture aucun frais de service pour les utilisateurs de notre site.</p>
+				<p class="text-white copyright" id="copyright-2">2020 - 2023 IGOguide Tous droits réservés.</p>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<script src="assets/js/app.js"></script>
+</body>
+</html>

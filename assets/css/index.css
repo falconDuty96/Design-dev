@@ -744,6 +744,71 @@ padding-bottom: 0px;
 }
 
 
+/* Carousel transformation */
+.header-hebergements {
+  height: 700px ;
+  background-color: red ;
+}
 
+.banniere {
+  position: relative;
+  background: grey ; 
+  /* background: url('../image/beach.jpg') ; */
+  background-repeat: no-repeat ; 
+  background-size: cover ; 
+  padding: 0px ;
+}
 
+.content-banniere-speciale {
+  position: absolute ;
+  margin-top: 510px ;
+  width: 700px ;
+}
+.masque-specialisation {
+  background: rgba(0,0,0,0.5) ; 
+  height: 700px ;
+}
+.boite-speciale {
+  transition: all 0.3s ease 0s;
+  width: 250px ;
+  height: 300px ;
+  border-radius: 10px ;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
+}
+.boite-speciale p {
+  width: 100% ;
+  
+}
+.boite-speciale {
+  cursor: pointer ;
+}
+.boite-speciale-hebergements:hover {
+  background-color: #279fdb;
+}
+.boite-speciale-bars:hover {
+  background-color: #bb218f;
+}
+.boite-speciale-restaurants:hover {
+  background-color: #dd1406;
+}
+.boite-speciale-balades:hover {
+  background-color: #81be90;
+}
+
+.boite-speciale:hover p {
+  color: white ;
+}
+.icon-circular {
+  background-color: #fff2f0;
+  width: 100px ;
+  height: 100px ;
+  border-radius: 50% ;
+}
+.icon-circular img {
+  position: relative ;
+  top: 20px ;
+  left: -5px ;
+}
