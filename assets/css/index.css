@@ -797,6 +797,9 @@ padding-bottom: 0px;
 .boite-speciale-balades:hover {
   background-color: #81be90;
 }
+.boite-speciale-activites:hover {
+  background-color: #ff8100;
+}
 
 .boite-speciale:hover p {
   color: white ;
