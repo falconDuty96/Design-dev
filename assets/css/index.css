@@ -770,7 +770,7 @@ padding-bottom: 0px;
 .banniere {
   position: relative;
   background: grey ; 
-  /* background: url('../image/beach.jpg') ; */
+  background-position: center;
   background-repeat: no-repeat ; 
   background-size: cover ; 
   padding: 0px ;
@@ -778,12 +778,12 @@ padding-bottom: 0px;
 
 .content-banniere-speciale {
   position: absolute ;
-  margin-top: 510px ;
+  margin-top: 20px ;
   width: 700px ;
 }
 .masque-specialisation {
   background: rgba(0,0,0,0.5) ; 
-  height: 700px ;
+  height: 150px ;
 }
 .boite-speciale {
   transition: all 0.3s ease 0s;
