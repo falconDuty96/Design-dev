@@ -800,6 +800,9 @@ padding-bottom: 0px;
 .boite-speciale-activites:hover {
   background-color: #ff8100;
 }
+.boite-speciale-services:hover {
+  background-color: #ffc823;
+}
 
 .boite-speciale:hover p {
   color: white ;
