@@ -512,14 +512,14 @@ padding-bottom: 0px;
   font-family: "handwriting";
   font-size: 30px ;
 }
-#carouselExampleIndicators2Blog .carousel-inner {
-  padding: 20px !important;
+.carousel-padding {
+  padding: 50px !important;
 }
 
 /* footer */
 #footer {
   /* height: 00px ; */
-  padding-top: 50px ;
+  padding-top: 30px ;
   padding-bottom: 50px ;
 }
 .logo-footer {
@@ -527,7 +527,7 @@ padding-bottom: 0px;
 }
 .colored-icon {
   color: white ;
-  font-size: 25px ;
+  font-size: 20px ;
   margin-right: 15px ;
 }
 
@@ -560,11 +560,26 @@ padding-bottom: 0px;
   margin-bottom: 0px ;
 }
 #copyright-2 {
-  margin-bottom: 0px ;
+  margin-bottom: 5px ;
 }
 
+/* Commentaire */
+.img-mo {
+  border-radius: 50%;
+  width: auto;
+  max-width: 50px;
+  object-fit: fill;
+  height: 50px ;
+  border: 2px solid white ;
+}
 
-
+.text-comments {
+  font-size: 12px ;
+  line-height: 15px ;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em; /* (Number of lines you want visible) * (line-height) */
+}
 
 
 

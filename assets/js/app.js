@@ -1,4 +1,18 @@
 $(document).ready(function() {
+
+    /* Random number */
+    function random(nbre) {
+        return Math.floor(Math.random() * nbre | 0 || -1) ;
+    }
+
+    /* Card rotation */
+    $(".card-rotate").each(function() {
+        $(this).css({
+            "transform": "rotate("+random(5)+"deg)" ,
+        })
+    })
+
+
     var stateIcon ;
     var stateTxt ;
     var elmentToChange = [] ;
@@ -88,15 +102,5 @@ $(document).ready(function() {
         })
     })
 
-    /* Random number */
-    function random(nbre) {
-        return Math.floor(Math.random() * nbre | 0 || -1) ;
-    }
-
-    /* Card rotation */
-    $(".card-rotate").each(function() {
-        $(this).css({
-            "transform": "rotate("+random(5)+"deg)" ,
-        })
-    })
+    
 })
