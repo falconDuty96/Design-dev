@@ -804,6 +804,9 @@ padding-bottom: 0px;
 .boite-speciale {
   cursor: pointer ;
 }
+.boite-speciale:hover .btn-decouvrir {
+  border: 1px solid #dee2e6;
+}
 
 .boite-speciale-hebergements:hover {
   background-color: #279fdb;
@@ -838,6 +841,7 @@ padding-bottom: 0px;
   top: 20px ;
   left: -5px ;
 }
+
 
 
 /* Modal */
