@@ -12,6 +12,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1200 ;
+}
+
+
 #entete_logo {
   background: #424141 ; 
   
@@ -397,6 +407,10 @@ padding-bottom: 0px;
 .region:hover {
   fill: rgba(255, 255, 0, 0.3);
 }
+
+
+
+
 #mySVGMap {
   /* width: 600px ; */
   fill: white ;
@@ -425,6 +439,13 @@ padding-bottom: 0px;
 
 .hover-region:hover {
   /* color: rgba(255, 255, 0, 0.5) !important; */
+  color: #7abef7;
+  text-decoration: none ;
+  
+}
+.link-activated {
+  /* color: rgba(255, 255, 0, 0.5) !important; */
+  color: #7abef7;
   text-decoration: none ;
   
 }
