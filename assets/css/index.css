@@ -2,6 +2,11 @@
   font-family: 'Remahpro';
   src: url('../font/RemahPro-ExtraBold.ttf') format('truetype') ;
 }
+@font-face {
+  font-family: "handwriting";
+  src: url('../font/Lovely font demo.otf') ;
+}
+
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -444,6 +449,10 @@ padding-bottom: 0px;
 
 
 /* Transformation */
+.card-height-reform {
+  height: 450px ;
+}
+
 .boldTxt {
 
   font-weight: bold;
@@ -467,6 +476,16 @@ padding-bottom: 0px;
   bottom: 8px;
   left: 16px;
 }
+.card-footer-reform {
+  background-color: transparent ;
+  border-top: none ;
+}
+.text-limiter {
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em; /* (Number of lines you want visible) * (line-height) */
+  line-height: 1.2em;
+}
 
 
 
@@ -475,11 +494,74 @@ padding-bottom: 0px;
   height: 700px ;
 }
 
-#footer {
-  height: 900px ;
+
+
+/* Polaroid style */
+.card-polaroid .card-header {
+  border-bottom: none ;
+  background-color: transparent;
+}
+.card-polaroid .card-body {
+  padding: 0px ;
+}
+.text-handwrited-polaroid {
+  border-top: none;
+  
+}
+.handwrite {
+  font-family: "handwriting";
+  font-size: 30px ;
+}
+#carouselExampleIndicators2Blog .carousel-inner {
+  padding: 20px !important;
 }
 
+/* footer */
+#footer {
+  /* height: 00px ; */
+  padding-top: 50px ;
+  padding-bottom: 50px ;
+}
+.logo-footer {
+  width: 80px ;
+}
+.colored-icon {
+  color: white ;
+  font-size: 25px ;
+  margin-right: 15px ;
+}
 
+.my-list {
+  padding-left: 0px ;
+  margin-top: 5px ;
+  list-style: none ;
+}
+
+.my-list li{
+  margin-top: 10px ;
+}
+
+.my-list a {
+  color: white ;
+}
+
+.my-list a:hover {
+  text-decoration: none ;
+  color: #8de8fe!important
+}
+.copyright {
+  font-size: 12px ;
+}
+#copyright {
+  background-color: black;
+}
+#copyright-1 {
+  margin-top: 5px ;
+  margin-bottom: 0px ;
+}
+#copyright-2 {
+  margin-bottom: 0px ;
+}
 
 
 

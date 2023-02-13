@@ -87,4 +87,16 @@ $(document).ready(function() {
             $("#flag-show").attr("src",src) ;
         })
     })
+
+    /* Random number */
+    function random(nbre) {
+        return Math.floor(Math.random() * nbre | 0 || -1) ;
+    }
+
+    /* Card rotation */
+    $(".card-rotate").each(function() {
+        $(this).css({
+            "transform": "rotate("+random(5)+"deg)" ,
+        })
+    })
 })
