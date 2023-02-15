@@ -896,3 +896,10 @@ padding-bottom: 0px;
 .modal-modif {
   margin-top: 250px ;
 }
+
+
+/* Nous rejoindre */
+#img-rejoindre img {
+  width: 350px ;
+  margin-right: 20px ;
+}
