@@ -28,13 +28,13 @@ body {
 
 
 #entete_logo {
-  background: #424141 ; 
+  background: #2b2929;
   
   
     
 }
 #entete_logo img {
-  width: 70px ;
+  width: 50px;
 }
 #entete_logo_gauche {
   /*background: red ; */
@@ -44,15 +44,17 @@ body {
  /* background-color: orange ;  */
   text-align: right ; 
   height: 50px ;
-  line-height: 45px ;
+  line-height: 33px;
   
   
 }
 .btn-log {
   font-size: 13px ;
+  color: white ;
 }
 .icon-log {
   font-size: 13px ;
+  color: white ;
 }
 
 .btn-log-container {
@@ -72,6 +74,7 @@ body {
 }
 #slogan {
   color: white ; 
+  font-size: 15px;
 }
 
 #entete_logo_droite .btn-dark {
@@ -902,4 +905,20 @@ padding-bottom: 0px;
 #img-rejoindre img {
   width: 350px ;
   margin-right: 20px ;
+}
+.element-rejoindre {
+  position: relative;
+}
+.element-to-show {
+  background-color: rgba(0,0,0,0.8) ;
+  height: 60px ;
+  width: 350px ;
+  position: absolute;
+  bottom: 0px ;
+  display: flex ;
+  justify-content: center ;
+}
+
+.element-to-show p {
+  margin-top: 15px;
 }

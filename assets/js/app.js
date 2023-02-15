@@ -90,6 +90,9 @@ $(document).ready(function() {
                 usedClassName = $(this).children()[1].attributes["class"].nodeValue ;
                 $(this).children()[1].attributes["class"].nodeValue += " text-and-icon" ;
                 initialConfig++ ;
+                $(this).css({
+                    "border-bottom": "1px solid #8de8fe" ,
+                })
             },
             mouseleave: function(a) {
                 var d = $(this).attr("data-shower") ;
@@ -97,6 +100,9 @@ $(document).ready(function() {
                     $("#boite-"+d).css({
                         "display":"none" ,
                     })
+                    // $(this).css({
+                    //     "border-bottom": "none" ,
+                    // })
                     elmentToChange[0].attributes[0].nodeValue = stateIcon ;
                     elmentToChange[1].attributes["class"].nodeValue = stateTxt ;
                     stateIcon = "" ;
@@ -114,6 +120,7 @@ $(document).ready(function() {
                         $(this).css({
                             "display":"none" ,
                         })
+                        
                         elmentToChange[0].attributes[0].nodeValue = stateIcon ;
                         elmentToChange[1].attributes["class"].nodeValue = stateTxt ;
                         stateIcon = "" ;
