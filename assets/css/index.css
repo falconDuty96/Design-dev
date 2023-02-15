@@ -530,7 +530,17 @@ padding-bottom: 0px;
   line-height: 1.2em;
 }
 
+.btn-warning-reform {
+  border: 2px solid #ffc107;
+  background-color: #fec20b;
+  color: #2d2925;
+}
 
+.btn-warning-reform:hover {
+  background-color: yellow;
+  /* color: white ; */
+  color: #2d2925;
+}
 
 /* BLOG */
 #blog {
@@ -539,10 +549,10 @@ padding-bottom: 0px;
 
 .img-tape-left {
   position: absolute;
-  top: -27px;
-  left: -42px;
-  transform: rotate(-16deg);
-  width: 150px;
+  top: -65px;
+  left: 81px;
+  transform: rotate(30deg);
+  width: 178px;
 }
 
 .img-tape-right {
@@ -575,6 +585,15 @@ padding-bottom: 0px;
   border-top: none;
   
 }
+.desc-polaroid {
+  position: absolute;
+  top: 12px;
+}
+.desc-polaroid p {
+  top: 245px ;
+  left: 55px;
+}
+
 .handwrite {
   font-family: "handwriting";
   font-size: 30px ;
