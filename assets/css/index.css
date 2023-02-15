@@ -382,6 +382,7 @@
   font-weight: bold;
 }
 
+
 .entete_row_primary {
   /* font-family: 'Montserrat', sans-serif; */
   color: #236eab;
@@ -480,9 +481,9 @@ padding-bottom: 0px;
 
 
 
-#defilement_transforme {
+/* #defilement_transforme {
   height: 600px ;
-}
+} */
 
 
 
