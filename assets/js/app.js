@@ -67,6 +67,9 @@ $(document).ready(function() {
                 if(usedMenu != menuHovered && initialConfig > 0) {
                     oldElementChanged[0].attributes[0].nodeValue = usedIconName ;
                     oldElementChanged[1].attributes["class"].nodeValue = usedClassName ;
+                    oldElementChanged.parent().css({
+                        "border-bottom": "none" ,
+                    })
                 }
                 clearTimeout(anim)
                 var d = $(this).attr("data-shower") ;
@@ -100,7 +103,8 @@ $(document).ready(function() {
                     $("#boite-"+d).css({
                         "display":"none" ,
                     })
-                    $(this).css({
+                    // console.log()
+                    elmentToChange.parent().css({
                         "border-bottom": "none" ,
                     })
                     elmentToChange[0].attributes[0].nodeValue = stateIcon ;
@@ -123,6 +127,9 @@ $(document).ready(function() {
                         
                         elmentToChange[0].attributes[0].nodeValue = stateIcon ;
                         elmentToChange[1].attributes["class"].nodeValue = stateTxt ;
+                        elmentToChange.parent().css({
+                            "border-bottom": "none" ,
+                        })
                         stateIcon = "" ;
                         stateTxt = "" ;
                         elmentToChange = [] ;   

@@ -14,7 +14,7 @@ body {
 
 * {
   font-family: 'Montserrat', sans-serif;
-  color: #2d2925 ;
+  /* color: #2d2925 ; */
 }
 
 
@@ -682,7 +682,7 @@ padding-bottom: 0px;
 
 /* Contenu Resultat */
 .card-horizontale {
-  height: 150px ;
+  height: 200px ;
   width: 100% ;
   border-radius: 10px ;
   position: relative ;
@@ -693,7 +693,7 @@ padding-bottom: 0px;
 }
 .imgcontainer-card-horizontale {
   width: 144px ;
-  height: 144px ;
+  height: 194px; ;
   border-radius: 10px ;
   position: absolute ;
   left: 2px ;
@@ -719,7 +719,7 @@ padding-bottom: 0px;
 }
 .icon-map {
   font-size: 20px ;
-  color: #D30047 ;
+  color: #D30047 !important ;
 }
 
 .heart {
@@ -727,7 +727,8 @@ padding-bottom: 0px;
   top: 10px ;
   left: 92%;
   font-size: 25px;
-  color: #8de8fe;
+  /* color: #8de8fe; */
+  color: #2d2925 ;
 }
 .heart:hover {
     color: #D30047 ;
@@ -765,6 +766,34 @@ padding-bottom: 0px;
   height: 600px ;
 }
 
+.boite-pdp-pro {
+  width: 50px ;
+  height: 50px ;
+  border: 3px solid white ;
+  border-radius: 50%;
+  background-image: url("../image/bar.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 800;
+}
+.li-relative {
+  position: relative ;
+}
+.text-pdp-pro {
+  z-index: 700 ;
+  position: absolute ;
+  top: 11px ;
+  left: 40px ;
+  font-size: 12px ;
+  background-color: white ;
+  padding-left: 10px ;
+  padding-right: 10px ;
+  padding-top: 5px ;
+  padding-bottom: 5px ;
+  border-radius: 0px 10px 10px 0px;
+}
 
 /* Overlay text */
 
@@ -810,7 +839,17 @@ padding-bottom: 0px;
 .pagination {
   font-size: 14px ;
 }
-
+.pagination .page-link {
+  border: none ;
+  background-color: transparent ;
+  color: rgba(45, 41, 37,0.4) ;
+}
+.pagination .page-link:hover {
+  color: rgba(45, 41, 37,1) ;
+}
+.active-number {
+  border-bottom: 1px solid rgba(45, 41, 37,1) ;;
+}
 
 /* Carousel transformation */
 .header-hebergements {
