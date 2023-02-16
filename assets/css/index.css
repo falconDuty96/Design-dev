@@ -8,6 +8,33 @@
 }
 
 
+/* Animation section */
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+
+
+
+
 body {
   background-color: #f5eee6;
 }
@@ -848,7 +875,8 @@ padding-bottom: 0px;
   color: rgba(45, 41, 37,1) ;
 }
 .active-number {
-  border-bottom: 1px solid rgba(45, 41, 37,1) ;;
+  border-bottom: 1px solid rgba(45, 41, 37,1) ;
+  color: rgba(45, 41, 37,1) !important ;
 }
 
 /* Carousel transformation */
