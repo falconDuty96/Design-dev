@@ -386,6 +386,7 @@ body {
   position: absolute;
   display: none ;
   z-index: 1200;
+  margin-top: 3px ;
 }
 
 #boite-1 {
