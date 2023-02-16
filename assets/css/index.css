@@ -856,6 +856,20 @@ padding-bottom: 0px;
   position: relative;
   z-index: 800;
 }
+
+.presentation-info-left .boite-pdp-pro {
+  position: absolute;
+left: 165px;
+top: 0px;
+}
+
+
+.presentation-info-left p {
+  left: 208px;
+}
+
+
+
 .li-relative {
   position: relative ;
 }
