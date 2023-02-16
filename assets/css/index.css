@@ -917,8 +917,53 @@ padding-bottom: 0px;
   bottom: 0px ;
   display: flex ;
   justify-content: center ;
+  transition: .5s ease;
+}
+.element-rejoindre:hover .element-to-show  {
+  height: 100%;
+}
+.element-rejoindre:hover .caret-down {
+  display: none ;
+}
+.element-rejoindre:hover .text-to-show {
+  display: inline-block;
+}
+.icon-rejoindre-reform {
+  font-size: 50px ;
+}
+.text-to-show {
+  display: none ;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .element-to-show p {
   margin-top: 15px;
 }
+.element-rejoindre:hover {
+  cursor: pointer;
+}
+
+.caret {
+  font-size: 30px;
+  position: absolute;
+  left: 0px;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  padding-left: 15px;
+  top: -30px;
+  padding-right: 15px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+
+
+
+
