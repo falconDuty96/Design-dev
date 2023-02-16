@@ -100,9 +100,9 @@ $(document).ready(function() {
                     $("#boite-"+d).css({
                         "display":"none" ,
                     })
-                    // $(this).css({
-                    //     "border-bottom": "none" ,
-                    // })
+                    $(this).css({
+                        "border-bottom": "none" ,
+                    })
                     elmentToChange[0].attributes[0].nodeValue = stateIcon ;
                     elmentToChange[1].attributes["class"].nodeValue = stateTxt ;
                     stateIcon = "" ;
