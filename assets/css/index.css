@@ -1251,8 +1251,8 @@ top: 0px;
   text-decoration: none;
 }
 
-body {
-  background-color: #f5eee6;
+.bg-beige {
+  background-color: #f5eee6 !important;
 }
 
 
