@@ -664,16 +664,29 @@ padding-bottom: 0px;
 
 
 /* Polaroid style */
+.card-polaroid {
+  margin-top: 80px;
+  margin-left: 50px ;
+  min-width: 371px ;
+  min-height: 274px ;
+}
 .card-polaroid .card-header {
   border-bottom: none ;
+  
   background-color: transparent;
+}
+.card-polaroid .card-header img {
+  min-width: 342px ;
+  min-height: 233px ;
+  height: 233px ;
+  width: auto;
 }
 .card-polaroid .card-body {
   padding: 0px ;
 }
 .text-handwrited-polaroid {
   border-top: none;
-  
+  top: 31px !important;
 }
 .desc-polaroid {
   position: absolute;
