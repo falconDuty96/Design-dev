@@ -17,6 +17,14 @@
     #region_france_liste {
         padding-left: 5px ;
     }
+    .content-banniere-speciale {
+        margin-top: 55px ;
+ 
+    }
+    .masque-specialisation {
+        height: 200px ;
+    }
+    
 }
 
 @media all and (max-width: 991px) {
@@ -55,6 +63,12 @@
     #region_france_liste {
         padding-left: 40px ;
     }
+    .content-banniere-speciale {
+        width: 500px ;
+      }
+      #maps {
+        display: none ;
+    }
 }
 
 @media all and (max-width: 767px) {
@@ -73,6 +87,10 @@
     #region_france_liste {
         padding-left: 25px ;
     }
+
+    .content-banniere-speciale {
+        width: 450px ;
+      }
 }
 
 @media all and (max-width: 575px) {
