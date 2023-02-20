@@ -160,7 +160,7 @@ $(document).ready(function() {
      */
     $("#slider-menu").hide() ;
     $("#bars").click(function() {
-        $("#slider-menu").slideToggle()
+        $("#slider-menu").slideToggle(200)
         if($(this).attr("state") == "off") {
             $(this).removeClass("fa-bars") ;
             $(this).addClass("fa-times") ; 
@@ -168,11 +168,22 @@ $(document).ready(function() {
         }
         else {
             $(this).addClass("fa-bars") ;
-        $(this).removeClass("fa-times") ;
-        $(this).attr("state","off")
+            $(this).removeClass("fa-times") ;
+            $(this).attr("state","off")
         }
-        
-
     })
+
+
+    // Dropdown
+    $(".dropper").slideUp() ;
+    $(".nav-link").each(function() {
+        $(this).click(function(e) {
+            e.stopPropagation() ;
+            $('.dropper').slideUp() ;
+            $(this).next().slideDown() ;
+        })
+    })
+
+    
     
 })

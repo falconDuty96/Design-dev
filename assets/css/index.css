@@ -29,7 +29,7 @@
 
 #bars {
   display: none;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
 }
 #bars:hover {
@@ -1283,12 +1283,29 @@ top: 0px;
   width: 100%;
   display: flex ;
   z-index: 1200;
+  height: 600px;
+  overflow-y: auto;
   /* flex-direction: column; */
   justify-content: center;
 }
+.dropper {
+  display: flex ;
+  flex-direction: column;
+  
+}
+
+.dropper ul li{
+  display: flex ;
+  flex-wrap: wrap ;
+  width: 150px;
+  margin-top: 10px;
+}
+.dropper ul li div {
+  width: 100px;
+}
 
 .nav_icone_bars {
-  width: 30px !important;
+  width: 25px !important;
 }
 .nav_icone_bars a {
   color: white !important;
