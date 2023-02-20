@@ -152,5 +152,27 @@ $(document).ready(function() {
         })
     })
 
+
+    /**
+     * 
+     *  Bars responsive
+     * 
+     */
+    $("#slider-menu").hide() ;
+    $("#bars").click(function() {
+        $("#slider-menu").slideToggle()
+        if($(this).attr("state") == "off") {
+            $(this).removeClass("fa-bars") ;
+            $(this).addClass("fa-times") ; 
+            $(this).attr("state","on")   
+        }
+        else {
+            $(this).addClass("fa-bars") ;
+        $(this).removeClass("fa-times") ;
+        $(this).attr("state","off")
+        }
+        
+
+    })
     
 })

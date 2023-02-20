@@ -1278,6 +1278,22 @@ top: 0px;
 }
 
 
+#slider-menu {
+  position: relative ;
+  width: 100%;
+  display: flex ;
+  z-index: 1200;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.nav_icone_bars {
+  width: 30px !important;
+}
+.nav_icone_bars a {
+  color: white !important;
+}
+
 
 
 
