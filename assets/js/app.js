@@ -158,9 +158,9 @@ $(document).ready(function() {
      *  Bars responsive
      * 
      */
-    $("#slider-menu").hide() ;
+    $("#accordion").hide() ;
     $("#bars").click(function() {
-        $("#slider-menu").slideToggle(200)
+        $("#accordion").slideToggle(200)
         if($(this).attr("state") == "off") {
             $(this).removeClass("fa-bars") ;
             $(this).addClass("fa-times") ; 
@@ -171,18 +171,19 @@ $(document).ready(function() {
             $(this).removeClass("fa-times") ;
             $(this).attr("state","off")
         }
+        console.log($(this).attr("class"))
     })
 
 
     // Dropdown
-    $(".dropper").slideUp() ;
-    $(".nav-link").each(function() {
-        $(this).click(function(e) {
-            e.stopPropagation() ;
-            $('.dropper').slideUp() ;
-            $(this).next().slideDown() ;
-        })
-    })
+    // $(".dropper").slideUp() ;
+    // $(".nav-link").each(function() {
+    //     $(this).click(function(e) {
+    //         e.stopPropagation() ;
+    //         $('.dropper').slideUp() ;
+    //         $(this).next().slideDown() ;
+    //     })
+    // })
 
     
     

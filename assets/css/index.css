@@ -1277,21 +1277,27 @@ top: 0px;
   background-color: #f5eee6 !important;
 }
 
-
-#slider-menu {
+.modal-modif {
+  top: -250px;
+  z-index: 3000;
+  background-color: transparent !important;
+}
+.modal-modif .modal-content,.modal-modif .list-group-item {
+  /* background-color: #2a2828 !important;
+  border-color: #dedede; */
+}
+#accordion {
   position: relative ;
   width: 100%;
-  display: flex ;
   z-index: 1200;
   height: 600px;
   overflow-y: auto;
   /* flex-direction: column; */
-  justify-content: center;
+  /* justify-content: center; */
 }
 .dropper {
   display: flex ;
   flex-direction: column;
-  
 }
 
 .dropper ul li{
@@ -1358,4 +1364,18 @@ width: 150px;
 
 .drop_parametters a {
   font-size: 15px;
+}
+
+/* Accordion */
+#accordion .card{
+  background-color: transparent !important;
+  border: none;
+}
+#accordion .card-header {
+  border: none !important
+}
+
+.list-v-center {
+  display: flex;
+  align-items: center;
 }
