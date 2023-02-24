@@ -28,6 +28,12 @@
 }
 
 @media all and (max-width: 991px) {
+    .entete_logo_results {
+        top: 0px ;
+    }
+    #content_results {
+        margin-top: 60px ;
+    }
     #navigation,#entete_logo_droite {
         display: none ;
     }
