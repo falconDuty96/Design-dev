@@ -388,7 +388,9 @@ body {
 
 .boite-menu {
   /* width: 300px ; */
-  
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
   border-radius: 5px ;
   background-color: #f5eee6 ;
   position: absolute;
@@ -627,7 +629,7 @@ padding-bottom: 0px;
 }
 
 .btn-warning-reform:hover {
-  background-color: yellow;
+  background-color: #fece3b;
   /* color: white ; */
   color: #2d2925;
 }
