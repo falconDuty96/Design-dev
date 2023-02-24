@@ -581,6 +581,17 @@ padding-bottom: 0px;
 } */
 
 
+#defilement_transforme .card:hover {
+  transition: .5s;
+}
+
+#defilement_transforme .card:hover {
+  transform: scale(1.05) ;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+}
+
 
 /* Transformation */
 .card-height-reform {
@@ -786,6 +797,7 @@ padding-bottom: 0px;
 .card-horizontale {
   /* height: 200px ; */
   /* max-height: 290px ; */
+  background-color: white ;
   min-height: 200px;
   width: 100% ;
   border-radius: 10px ;
@@ -964,12 +976,12 @@ padding-bottom: 0px;
 
 .content-banniere-speciale {
   position: absolute ;
-  margin-top: 20px ;
+  margin-top: 460px ;
   width: 700px ;
 }
 .masque-specialisation {
   background: rgba(0,0,0,0.5) ; 
-  height: 150px ;
+  height: 600px ;
 }
 .boite-speciale {
   transition: all 0.3s ease 0s;
@@ -995,8 +1007,15 @@ padding-bottom: 0px;
 }
 
 .boite-speciale-hebergements:hover {
-  background-color: #279fdb;
+  background-color: #2166b8;
 }
+
+.boite-speciale:hover button{
+  background-color: white !important;
+  color: #279fdb !important;
+}
+
+
 .boite-speciale-bars:hover {
   background-color: #bb218f;
 }
