@@ -160,6 +160,7 @@ $(document).ready(function() {
      */
     $("#accordion").hide() ;
     $("#bars").click(function() {
+        $("#accordion").removeClass("d-none")
         $("#accordion").slideToggle(200)
         if($(this).attr("state") == "off") {
             $(this).removeClass("fa-bars") ;
