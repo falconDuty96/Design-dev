@@ -1,6 +1,15 @@
 $(document).ready(function() {
     // When the user scrolls the page, execute myFunction
     window.onscroll = function() {myFunction()};
+    window.onresize = function() {
+        if(window.innerWidth >= 992) {
+            $("#accordion").hide() ;
+            $("#accordion").addClass("d-none")
+            $("#bars").addClass("fa-bars") ;
+            $("#bars").removeClass("fa-times") ;
+            $("#bars").attr("state","off")
+        }
+    }
 
     // Get the navbar
     var navbar = document.getElementById("navigation");
@@ -172,7 +181,6 @@ $(document).ready(function() {
             $(this).removeClass("fa-times") ;
             $(this).attr("state","off")
         }
-        console.log($(this).attr("class"))
     })
 
 
