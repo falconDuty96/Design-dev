@@ -782,7 +782,9 @@ padding-bottom: 0px;
 
 /* Contenu Resultat */
 .card-horizontale {
-  height: 200px ;
+  /* height: 200px ; */
+  /* max-height: 290px ; */
+  min-height: 200px;
   width: 100% ;
   border-radius: 10px ;
   position: relative ;
@@ -811,7 +813,18 @@ padding-bottom: 0px;
   padding-bottom: 10px ;
   padding-right: 10px;
   margin-left: 150px ;
-  height: 200px ;
+  /* height: 200px ; */
+  
+}
+
+
+
+.presentation-info-left {
+  width: 180px ;
+  height: 45px;
+  margin-top: 5px;
+  /* background-color: green ; */
+  position: relative;
 }
 .description-container ul {
   list-style: none ;
@@ -866,47 +879,13 @@ padding-bottom: 0px;
   height: 600px ;
 }
 
-.boite-pdp-pro {
-  width: 50px ;
-  height: 50px ;
-  border: 3px solid white ;
-  border-radius: 50%;
-  background-image: url("../image/bar.jpg") ;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 800;
-}
-
-.presentation-info-left .boite-pdp-pro {
-  position: absolute;
-left: 165px;
-top: 0px;
-}
-
-
-.presentation-info-left p {
-  left: 208px;
-}
 
 
 
 .li-relative {
   position: relative ;
-}
-.text-pdp-pro {
-  z-index: 700 ;
-  position: absolute ;
-  top: 11px ;
-  left: 40px ;
-  font-size: 12px ;
-  background-color: white ;
-  padding-left: 10px ;
-  padding-right: 10px ;
-  padding-top: 5px ;
-  padding-bottom: 5px ;
-  border-radius: 0px 10px 10px 0px;
+  display: flex ;
+  flex-wrap: wrap;
 }
 
 /* Overlay text */
