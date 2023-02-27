@@ -1455,3 +1455,20 @@ width: 150px;
   bottom: 200px;
   
 }
+
+#blog-slider {
+  position: relative ;
+}
+
+.icon-blog-slider {
+  transition: 0.5s;
+  font-size: 50px;
+color: #141212;
+position: absolute;
+top: 50%;
+left: 96%;
+cursor: pointer;
+}
+.icon-blog-slider:hover {
+  color: #fee085;
+}

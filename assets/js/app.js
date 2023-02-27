@@ -194,6 +194,16 @@ $(document).ready(function() {
     //     })
     // })
 
-    
+    var polaroidNumber = $("#blog-slider .card-polaroid") ;
+    var largeur = polaroidNumber.length * 265 ;
+    var largeur_initial = 795 ;
+    var mikisaka = 0 ;
+    $("#blog-slider").click(function() {
+        largeur_initial += 10 ;
+        mikisaka += 10 ;
+        $(this).css({
+            "right": mikisaka+"px" ,
+        })
+    })
     
 })
