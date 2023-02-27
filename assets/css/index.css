@@ -586,7 +586,7 @@ padding-bottom: 0px;
 }
 
 #defilement_transforme .card:hover {
-  transform: scale(1.05) ;
+  /* transform: scale(1.05) ; */
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
   -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
@@ -653,7 +653,7 @@ padding-bottom: 0px;
 .img-tape-left {
   position: absolute;
   top: -65px;
-  left: 81px;
+  left: 65px;
   transform: rotate(30deg);
   width: 178px;
 }
@@ -666,48 +666,71 @@ padding-bottom: 0px;
   width: 110px;
 }
 .masking-tape {
-  width: 270px;
+  /* width: 300px;
   position: absolute;
   top: 243px;
   left: 44px;
   height: 46px;
-  z-index: 1000;
+  z-index: 1000; */
+  width: 300px;
+position: absolute;
+top: 243px;
+left: 10px;
+height: 46px;
+z-index: 1000;
 }
 
 
 
 /* Polaroid style */
 .card-polaroid {
+  /* position: relative;
   margin-top: 80px;
   margin-left: 50px ;
   min-width: 371px ;
-  min-height: 274px ;
+  min-height: 274px ; */
+  position: relative;
+margin-top: 80px;
+margin-left: 50px;
+min-width: 274px;
+min-height: 200px;
 }
 .card-polaroid .card-header {
   border-bottom: none ;
-  
-  background-color: transparent;
+  min-width: 274px ;
+  min-height: 200px ;
 }
 .card-polaroid .card-header img {
-  min-width: 342px ;
+  /* min-width: 342px ;
   min-height: 233px ;
   height: 233px ;
-  width: auto;
+  width: auto; */
+  max-width: 274px;
+min-height: 200px;
+height: 200px;
+width: auto;
+object-fit: cover;
+
 }
 .card-polaroid .card-body {
   padding: 0px ;
 }
 .text-handwrited-polaroid {
+  /* border-top: none;
+  top: 31px !important; */
   border-top: none;
-  top: 31px !important;
+top: -10px !important;
 }
 .desc-polaroid {
   position: absolute;
-  top: 12px;
+  width: 100% ;
+  height: 50px;
+  /* top: 12px; */
 }
 .desc-polaroid p {
   top: 245px ;
-  left: 55px;
+  /* left: 55px; */
+  width: 100%;
 }
 
 .handwrite {
@@ -1211,7 +1234,7 @@ padding-bottom: 0px;
 }
 
 .login-clean form {
-  max-width: 320px;
+  max-width: 400px;
   width: 90%;
   margin: 0 auto;
   background-color: #ffffff;
@@ -1406,4 +1429,29 @@ width: 150px;
   top: 10px ;
   left: 40px;
   z-index: 700;
+}
+
+.card-height-reform .img-2 {
+  display: none ;
+  transition: 1s;
+}
+.card-height-reform:hover .img-1 {
+  display: none ;
+}
+.card-height-reform:hover .img-2 {
+  display: block ;
+}
+
+.elem-design {
+  height: 300px ;
+  background-color: #dedede ;
+  background-image: url("../image/Connection/devenez_partenaire.png");
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+}
+.design-miakatra {
+  position: relative ;
+  bottom: 200px;
+  
 }
