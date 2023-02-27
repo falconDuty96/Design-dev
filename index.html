@@ -767,7 +767,7 @@
 	<!-- Comment ça marche -->
 	
 	<div class="container-fluid" style="background-color: #FFECB4 ;">
-		<div class="container p-2">
+		<div class="container move p-2">
 			<h2 class="text-center entete_row">Comment ça marche ?</h2>
 			<div class="pt-2 ccm-flex">
 				<div class="ccm" id="ccm1">
@@ -819,7 +819,7 @@
 
 	<!-- IGOGUIDE TRANFORME VOS RECHERCHES! -->
 	<div class="container-fluid mt-5" id="defilement_transforme">
-		<div class="container">
+		<div class="container move">
 			<h2 class="text-center mb-4 entete_row entete_row_primary">IGOGUIDE transforme vos recherches !</h2>
 			
 			<div class="row">
@@ -943,7 +943,7 @@
 
 	<!-- Ou aller -->
 	<div class="container-fluid bg-white py-5">
-		<div class="container mt-4">
+		<div class="container move mt-4">
 			<h2 class="text-center entete_row entete_row_primary">Où aller ?</h2>
 			<div id="boite_carte">
 				<div class="carte mt-4" id="trouver_departement">
@@ -1399,7 +1399,7 @@
 
 	<!-- BLOG -->
 	<div class="container-fluid pb-5" id="blog" >
-		<div class="container mt-5">
+		<div class="container move mt-5">
 			<h2 class="text-center entete_row entete_row_primary">Partez à la Découverte des régions et de leurs secrets avec IGOBLOG...</h2>
 			<div class="row d-flex justify-content-center flex-wrap" style="margin-top: 10px;">
 				<div class="card card-polaroid card-rotate">
@@ -1478,7 +1478,7 @@
 
 	<!-- REJOIGNEZ-NOUS ! -->
 	<div class="container-fluid py-5 mt-5" id="defilement_transforme" style="background-color: #fee085;">
-		<div class="container">
+		<div class="container move">
 			<h2 class="text-center mb-5 entete_row entete_row_primary">Rejoignez-nous</h2>
 			
 			<div id="img-rejoindre" class="d-flex justify-content-center flex-wrap">
@@ -2043,11 +2043,11 @@
 	</script>
 	<script src="assets/js/app.js"></script>
 	<script>
-		ScrollReveal().reveal('.container-fluid .container',{
-			// delay: 100,
+		ScrollReveal().reveal('.move',{
+			delay: 100,
 			distance: '105%',
 			origin: 'bottom',
-			opacity: 0
+			opacity: null
 		});
 	</script>
 </body>
