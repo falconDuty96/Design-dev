@@ -648,6 +648,7 @@ padding-bottom: 0px;
 /* BLOG */
 #blog {
   /* height: 700px ; */
+  
 }
 
 .img-tape-left {
@@ -694,6 +695,9 @@ margin-top: 80px;
 margin-left: 50px;
 min-width: 274px;
 min-height: 200px;
+/* max-height: 200px; */
+height: 230px;
+
 }
 .card-polaroid .card-header {
   border-bottom: none ;
@@ -1458,17 +1462,23 @@ width: 150px;
 
 #blog-slider {
   position: relative ;
+  height: 380px;
 }
 
 .icon-blog-slider {
   transition: 0.5s;
   font-size: 50px;
-color: #141212;
-position: absolute;
-top: 50%;
-left: 96%;
-cursor: pointer;
+  color: #141212;
+  position: absolute;
+  top: 50%;
+  left: 96%;
+  cursor: pointer;
 }
 .icon-blog-slider:hover {
   color: #fee085;
+}
+
+#left {
+  display: none ;
+  left: 70px;
 }
