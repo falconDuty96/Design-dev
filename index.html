@@ -744,29 +744,23 @@
 			</div>
 			</div>
 		</div>
-			<div class="container" id="champ-recherche">
-				<div class="row">
-					<div class="col-xl-12" id="form-banniere">
-						<h1 id="titre_banniere" class="titre">Une nuit insolite, une sortie et c’est parti !</h1>
-						<form>
-							<input type="" name="" placeholder="Mot clé (Ex : Dormir, bars, restaurants...)" class="form-control">
-							<input type="" name="" placeholder="Lieu (Ex : Bordeaux)" class="form-control input_2">
-							<a href="#" class="btn btn-warning" id="btn-rechercher">Rechercher</a>
-						</form>
-						<img id="favoris" src="assets/image/igoguide-mes-favoris@4x.png" alt="">
-					</div>
+		<div class="container" id="champ-recherche">
+			<div class="row">
+				<div class="col-xl-12" id="form-banniere">
+					<h1 id="titre_banniere" class="titre">Une nuit insolite, une sortie et c’est parti !</h1>
+					<form>
+						<input type="" name="" placeholder="Mot clé (Ex : Dormir, bars, restaurants...)" class="form-control">
+						<input type="" name="" placeholder="Lieu (Ex : Bordeaux)" class="form-control input_2">
+						<a href="#" class="btn btn-warning" id="btn-rechercher">Rechercher</a>
+					</form>
+					<img id="favoris" src="assets/image/igoguide-mes-favoris@4x.png" alt="">
 				</div>
 			</div>
-
-
-			
-
-		  
-		
+		</div>
 	</div>
+
 	<!-- Comment ça marche -->
-	
-	<div class="container-fluid" style="background-color: #FFECB4 ;">
+	<div class="container-fluid" style="overflow: hidden; background-color: #FFECB4 ;">
 		<div class="container move p-2">
 			<h2 class="text-center entete_row">Comment ça marche ?</h2>
 			<div class="pt-2 ccm-flex">
@@ -818,18 +812,20 @@
 
 
 	<!-- IGOGUIDE TRANFORME VOS RECHERCHES! -->
-	<div class="container-fluid mt-5" id="defilement_transforme">
+	<div class="container-fluid mt-5" id="defilement_transforme" style="overflow: hidden; ">
 		<div class="container ">
 			<h2 class="text-center mb-4 entete_row entete_row_primary">IGOGUIDE transforme vos recherches !</h2>
 			
 			<div class="row">
 				<div class="col-md-4 move1 col-sm-12 mb-3">
 					<div class="card shadow card-height-reform">
-						<div class="img-1">
-							<img class="img-fluid" alt="100%x280" src="assets/image/hebergement_atypique.jpg">
-						</div>
-						<div class="img-2">
-							<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+						<div class="__images">
+							<div class="img-1">
+								<img class="img-fluid" alt="100%x280" src="assets/image/hebergement_atypique.jpg">
+							</div>
+							<div class="img-2">
+								<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+							</div>
 						</div>
 						
 						<div class="card-body">
@@ -843,11 +839,13 @@
 				</div>
 				<div class="col-md-4 move2 col-sm-12 mb-3">
 					<div class="card card-height-reform ">
-						<div class="img-1">
-							<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
-						</div>
-						<div class="img-2">
-							<img class="img-fluid" alt="100%x280" src="assets/image/resto.jpg">
+						<div class="__images">
+							<div class="img-1">
+								<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+							</div>
+							<div class="img-2">
+								<img class="img-fluid" alt="100%x280" src="assets/image/resto.jpg">
+							</div>
 						</div>
 						<div class="card-body">
 							<h5 class="card-title entete_row">Bars</h5>
@@ -860,11 +858,13 @@
 				</div>
 				<div class="col-md-4 move3 col-sm-12 mb-3">
 					<div class="card card-height-reform ">
-						<div class="img-1">
-							<img class="img-fluid" alt="100%x280" src="assets/image/resto.jpg">
-						</div>
-						<div class="img-2">
-							<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+						<div class="__images">
+							<div class="img-1">
+								<img class="img-fluid" alt="100%x280" src="assets/image/resto.jpg">
+							</div>
+							<div class="img-2">
+								<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+							</div>
 						</div>
 						<div class="card-body">
 							<h5 class="card-title entete_row">Restaurants</h5>
@@ -881,11 +881,13 @@
 			<div class="row mt-4">
 				<div class="col-md-4 move1 col-sm-12 mb-3">
 					<div class="card card-height-reform">
-						<div class="img-1">
-							<img class="img-fluid" alt="100%x280" src="assets/image/balade.jpg">
-						</div>
-						<div class="img-2">
-							<img class="img-fluid" alt="100%x280" src="assets/image/resto.jpg">
+						<div class="__images">
+							<div class="img-1">
+								<img class="img-fluid" alt="100%x280" src="assets/image/balade.jpg">
+							</div>
+							<div class="img-2">
+								<img class="img-fluid" alt="100%x280" src="assets/image/resto.jpg">
+							</div>
 						</div>
 						<div class="card-body">
 							<h5 class="card-title entete_row">Balade</h5>
@@ -895,21 +897,21 @@
 						<div class="card-footer card-footer-reform">
 							<a href="balades.html" class="btn btn-warning-reform btn-block">Voir plus</a>
 						</div>
-
 					</div>
 				</div>
 				<div class="col-md-4 move2 col-sm-12 mb-3">
 					<div class="card card-height-reform">
-						<div class="img-1">
-							<img class="img-fluid" alt="100%x280" src="assets/image/activite.jpg">
-						</div>
-						<div class="img-2">
-							<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+						<div class="__images">
+							<div class="img-1">
+								<img class="img-fluid" alt="100%x280" src="assets/image/activite.jpg">
+							</div>
+							<div class="img-2">
+								<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+							</div>
 						</div>
 						<div class="card-body">
 							<h5 class="card-title entete_row">Activités</h5>
 							<p class="card-text text-limiter">À la recherche d'une activité dans le lieu où vous vous trouvez ? Envie de découvrir les régions françaises sous leurs angles les plus originaux? IGOguide vous emmène pour bouger ou vous détendre.</p>
-							
 						</div>
 						<div class="card-footer card-footer-reform">
 							<a href="activites.html" class="btn btn-warning-reform btn-block">Voir plus</a>
@@ -918,16 +920,17 @@
 				</div>
 				<div class="col-md-4 move3 col-sm-12 mb-3">
 					<div class="card card-height-reform">
-						<div class="img-1">
-							<img class="img-fluid" alt="100%x280" src="assets/image/service.jpg">
-						</div>
-						<div class="img-2">
-							<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+						<div class="__images">
+							<div class="img-1">
+								<img class="img-fluid" alt="100%x280" src="assets/image/service.jpg">
+							</div>
+							<div class="img-2">
+								<img class="img-fluid" alt="100%x280" src="assets/image/bar.jpg">
+							</div>
 						</div>
 						<div class="card-body">
 							<h5 class="card-title entete_row">Services</h5>
 							<p class="card-text text-limiter">Et si pour animer votre soirée ou rendre votre séjour inoubliable, vous faisiez appel aux services de professionnels? besoin d'un photographe? D'un traiteur? D'une location de voiture? D'un fleuriste peut-être!</p>
-							
 						</div>
 						<div class="card-footer card-footer-reform">
 							<a href="services.html" class="btn btn-warning-reform btn-block">Voir plus</a>
@@ -942,7 +945,7 @@
 
 
 	<!-- Ou aller -->
-	<div class="container-fluid bg-white py-5">
+	<div class="container-fluid bg-white py-5" style="overflow: hidden; ">
 		<div class="container move mt-4">
 			<h2 class="text-center entete_row entete_row_primary">Où aller ?</h2>
 			<div id="boite_carte">
@@ -1398,7 +1401,7 @@
 
 
 	<!-- BLOG -->
-	<div class="container-fluid pb-5" id="blog" >
+	<div class="container-fluid pb-5" id="blog">
 		<div class="container mt-5">
 			<h2 class="text-center entete_row entete_row_primary">Partez à la Découverte des régions et de leurs secrets avec IGOBLOG...</h2>
 			<!-- <div class="row d-flex justify-content-center flex-wrap" style="margin-top: 10px;"> -->
@@ -1430,6 +1433,7 @@
 					</div>
 
 				</div>
+
 				<div class="card card-polaroid card-rotate">
 					<img src="assets/image/tape-png-44330.png" class="img-tape-left" alt="">
 					<div class="card-header px-2 pt-2 pb-4">
@@ -1442,6 +1446,7 @@
 					</div>
 
 				</div>
+
 				<div class="card card-polaroid card-rotate">
 					<img src="assets/image/tape-png-44330.png" class="img-tape-left" alt="">
 					<div class="card-header px-2 pt-2 pb-4">
@@ -1454,6 +1459,7 @@
 					</div>
 
 				</div>
+
 				<div class="card card-polaroid card-rotate">
 					<img src="assets/image/tape-png-44330.png" class="img-tape-left" alt="">
 					<div class="card-header px-2 pt-2 pb-4">
@@ -1480,7 +1486,7 @@
 
 
 	<!-- REJOIGNEZ-NOUS ! -->
-	<div class="container-fluid py-5 mt-5" id="defilement_transforme" style="background-color: #fee085;">
+	<div class="container-fluid py-5 mt-5" id="defilement_transforme" style="overflow: hidden; background-color: #fee085;">
 		<div class="container move">
 			<h2 class="text-center mb-5 entete_row entete_row_primary">Rejoignez-nous</h2>
 			
